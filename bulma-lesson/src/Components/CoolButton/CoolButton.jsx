@@ -31,7 +31,10 @@ class CoolButton extends Component {
     };
 
     collectStyles = () => {
-        let styling = 'button ' + this.props.className;
+        let styling = 'button ';
+        if (this.props.className) {
+            styling += this.props.className + ' ';
+        }
         for (let prop in this.props) {
             if (this.styles[prop]) {
                 styling += this.styles[prop] + ' ';
