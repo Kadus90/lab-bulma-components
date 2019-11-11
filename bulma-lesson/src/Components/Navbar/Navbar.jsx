@@ -13,16 +13,16 @@ class Navbar extends Component {
                             height="28"
                         />
                     </a>
-                    <a class="navbar-item">Home</a>
+                    <a className="navbar-item">Home</a>
                 </div>
 
                 <div className="navbar-end">
                     <div className="navbar-item">
                         <div className="buttons">
-                            <a class="button is-primary">
+                            <a className="button is-primary">
                                 <strong>Sign up</strong>
                             </a>
-                            <a class="button is-light">Log in</a>
+                            <a className="button is-light">Log in</a>
                         </div>
                     </div>
                 </div>

@@ -6,6 +6,7 @@ import 'bulma/css/bulma.css';
 // Custom Components
 import Navbar from './Components/Navbar/Navbar';
 import FormField from './Components/FormField/FormField';
+import CoolButton from './Components/CoolButton/CoolButton';
 
 function App() {
     return (
@@ -17,6 +18,12 @@ function App() {
                 type="email"
                 placeholder="e.g. alexsmith@gmail.com"
             />
+            <CoolButton isSmall isDanger className="is-rounded my-class">
+                Button 1
+            </CoolButton>
+            <CoolButton isSmall isSuccess>
+                Button 2
+            </CoolButton>
         </div>
     );
 }
